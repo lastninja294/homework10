@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+/* Joylashuv */
+
+.content{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.half{
+    width: 50%;
+    margin: auto;
+}
+
+.uchdanbir{
+    width: 32%;
+}
+
+.chorak{
+    width: 24%;
+}
+
+.content1{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/* Button va iconlar */
+
+.btn {
+  display: inline-block;
+  background-color: white;
+  border-radius: 35px;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: white;
+  border-radius: 35px;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.threeline {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.icon-size {
+  font-size: 1.1rem;
+  margin-top: 9.8px;
+}
+
+.for-icon {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.nimadir{
+    clear: both;
+}
+
+/* Alohida */
+
+header#top {
+  width: 100%;
+  height: 780px;
+  background-color: teal;
+  background-image: url(./images/topbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+header#top .dropdown {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header#top .icons {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 0px 400px;
+  text-align: center;
+}
+
+header#top nav .btn{
+    float: right;
+}
+
+
+
+header#top .nav-top {
+  padding: 50px 0px;
+  background-color: rgba(62, 224, 207, 0);
+}
+
+header#top .nav-top ul > li {
+  display: inline-block;
+}
+
+header#top .gap{
+    width: 50%;
+    margin-top: 170px;
+}
+
+header#top h3{
+    font-size: 0.8rem;
+    color: #232323;
+    font-weight: 900;
+}
+
+header#top h1{
+    color: #232323;
+    font-size: 2.9rem;
+    font-weight: 800;
+}
+
+header#top .gap + .btn{
+    margin-top: 15px;
+    padding: 15px 20px;
+}
+
+section#top-info{
+    padding: 50px 0px;
+    color: #232323;
+}
+
+section#top-info h2{
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 85px;
+}
+
+section#top-info p{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+section#top-info .l-1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: #ffd027;
+    margin-top: 50px;
+    text-align: center;
+    padding: 60px 0px;
+    margin-bottom: 50px;
+}
+
+
+
+section#top-info .middle ul>li{
+    display: inline-block;
+    width: 32%;
+    background-color: #ffd027;
+    box-sizing: border-box;
+    margin-right: 11px;
+}
+
+section#top-info .middle >h1{
+    font-size: 1.3rem;
+    margin: 20px 0px;
+}
+
+section#top-info .middle p{
+    color: #fff;
+}
+
+section#top-info .middle li h1{
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+
+.meet{
+    margin-top: 50px;
+}
+
+.meet h1{
+    padding: 10px 0px;
+}
+
+.meet li>img{
+    margin: 10px;
+    padding: 0;
+}
+
+.meet li>img:hover{
+    box-shadow: 0 0 2px 2px rgba(119, 119, 113, 0.486);
+}
+
+section#likilla{
+    background-color: #ffd027;
+}
+
+section#likilla .l-2{
+    padding: 55px 0px;
+    margin-bottom: 50px;
+}
+
+.l-2 h1{
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.l-2 h1 + .btn{
+    float: right;
+}
+
+section#top-bottom{
+    margin-bottom: 30px;
+}
+
+section#top-bottom .container>h1{
+    text-align: center;
+    font-size: 2.1rem;
+    color: #232323;
+    margin-bottom: 55px;
+}
+
+section#top-bottom h3{
+    font-size: 3.5rem;
+    color: #ffd027;
+    line-height: 0px;
+}
+
+section#top-bottom h4{
+    margin-bottom: 10px;
+    color: #232323;
+}
+
+.chorak p>a{
+    color: #ffd027;
+}
+
+.chorak h4{
+    margin: 0;
+    padding: 0px 0px 15px 0px;
+}
+
+.prosta{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.prosta h4{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0,5);
+}
+
+.prosta h2{
+    font-size: 2rem;
+}
+
+.map{
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 45px;
+}
+
+footer#bottom{
+    background-color: rgba(68, 68, 68,0.05);
+}
+
+footer#bottom img{
+    width: 76.8px;
+    height: 51.2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer#bottom p{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    vertical-align: middle;
+    padding: 35px 0px;
+    width: 30%;
+    margin-left: 270px;
+}
+
+footer#bottom ul{
+    display: inline-block;
+    margin-left: 105px;
+    text-align: center;
+}
+
+footer#bottom li{
+    display: inline-block;
+    background-color: #ffd027;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+footer#bottom li i{
+    margin-top: 10px;
+}
+
+
+
+
+
